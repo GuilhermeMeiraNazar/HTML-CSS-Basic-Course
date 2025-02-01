@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- div.classe-um.classe-dois -->
+    <div class="classe-um classe-dois"></div>
+
+    <!-- div#meu-id -->
+     <div id="meu-id"></div>
+
+     <!-- div#meu-id.minha-classe -->
+     <div id="meu-id" class="minha-classe"></div>
+
+     <!-- div#meu-id.minha-classe{meu conteudo} -->
+     <div id="meu-id" class="minha-classe">meu conteudo</div>
+
+     <!-- div#meu-id.minha-classe.minha-outra-classe{meu conteudo}*3 -->
+     <div id="meu-id" class="minha-classe minha-outra-classe">meu conteudo</div>
+     <div id="meu-id" class="minha-classe minha-outra-classe">meu conteudo</div>
+     <div id="meu-id" class="minha-classe minha-outra-classe">meu conteudo</div>
+
+     <!-- div#meu-id-$.minha-classe.minha-outra-classe{meu conteudo $}*3  -->
+     <div id="meu-id-1" class="minha-classe minha-outra-classe">meu conteudo 1</div>
+     <div id="meu-id-2" class="minha-classe minha-outra-classe">meu conteudo 2</div>
+     <div id="meu-id-3" class="minha-classe minha-outra-classe">meu conteudo 3</div> 
+
+     <!-- ul>li{conteudo $}*10 -->
+     <ul>
+        <li>conteudo 1</li>
+        <li>conteudo 2</li>
+        <li>conteudo 3</li>
+        <li>conteudo 4</li>
+        <li>conteudo 5</li>
+        <li>conteudo 6</li>
+        <li>conteudo 7</li>
+        <li>conteudo 8</li>
+        <li>conteudo 9</li>
+        <li>conteudo 10</li>
+     </ul>
+
+     <!-- ul>(li>a{Conteudo $})*3 -->
+     <ul>
+        <li><a href="">Conteudo 1</a></li>
+        <li><a href="">Conteudo 2</a></li>
+        <li><a href="">Conteudo 3</a></li>
+     </ul>
+
+     <!-- ul>(li>a{Conteudo $}[href="http:link.com"])*3 -->
+     <ul>
+        <li><a href="http:link.com">Conteudo 1</a></li>
+        <li><a href="http:link.com">Conteudo 2</a></li>
+        <li><a href="http:link.com">Conteudo 3</a></li>
+     </ul>
+
+     <!-- div.minha-classe#home>h1{conteudo qualquer}+p{com qual quer conteudo}>a{clique aqui}+{para saber mais} -->
+     <div class="minha-classe" id="home">
+        <h1>conteudo qualquer</h1>
+        <p>com qual quer conteudo<a href="">clique aqui</a>para saber mais</p>
+     </div>
+     
+
+</body>
+</html>
