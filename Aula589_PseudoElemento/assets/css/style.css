@@ -1,0 +1,10 @@
+ul li::after{
+    content:'-';
+    background: red;
+    color: white;
+    display: line;
+}
+p::selection {
+    background: black;
+    color: white;
+}

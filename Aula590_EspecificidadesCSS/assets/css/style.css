@@ -1,0 +1,25 @@
+/*
+ ID -> classes -> atributos e pseudo-classe -> Elementos e pseudo-elementos
+  */
+ /*ID 100*/ #p{
+    background: red;
+ }
+  /*Classe 010*/ .p{
+    background: yellow;
+ }
+  /*ID + Classe 110*/ #p.p{
+    background: blue;
+ }
+   /*Elemento 001*/ p{
+    background: orange;
+ }
+    /*Elemento + ID 101*/ p#p{
+        background: purple;
+ }
+     /*Elemento + ID + classe 111*/ p#p.p{
+        background: green;
+ }
+      /*!important , quebra todas as regras*/ p{
+        background: gray !important;
+ }
+

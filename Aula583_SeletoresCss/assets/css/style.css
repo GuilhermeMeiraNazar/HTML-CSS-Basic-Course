@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* p {
+    color:red;
+} */
+body div section p{
+    color:red;
+}
+.color-blue{
+    color: blue;
+}
+
+.pai h1~p{
+    color: red;
+}

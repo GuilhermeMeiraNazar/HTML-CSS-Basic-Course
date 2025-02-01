@@ -1,0 +1,18 @@
+p{
+    font-size: 20px;
+}
+p {
+    /* color:red;
+    background: yellow;
+    font-style: italic;
+    font-weight: bold;
+    direction: ltr;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 25px;
+    text-align: right;
+    text-decoration: line-through;
+    text-indent: 50px; 
+    text-shadow: -2px -2px 2px red;*/
+    text-transform: capitalize;
+}
